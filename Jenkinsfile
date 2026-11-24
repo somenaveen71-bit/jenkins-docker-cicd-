@@ -26,7 +26,7 @@ COPY index.html /usr/share/nginx/html/index.html
 EXPOSE 80
 '''
 
-                sh 'docker build -t jenkins-nginx:v2 .'
+                sh 'sh 'docker build -t jenkins-nginx:v3 .' .'
             }
         }
 
